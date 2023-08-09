@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Website</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <!-- full container -->
+    <div class="container">
+      <!-- header -->
+      <nav>
+        <h1>HeLloALL</h1>
+        <div class="icon">
+          <i class="ph ph-list"></i>
+        </div>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#section2">Skill</a></li>
+          <li><a href="#myproject">Project</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <!-- About Me -->
+      <section class="section1">
+        <article class="main1">
+          <h3>Hello Semua, I'am Agung</h3>
+          <p>I'am A Programmer</p>
+          <button>Contact Me</button>
+        </article>
+        <article class="main2">
+          <img src="/asset/agung.png" alt="me" />
+        </article>
+      </section>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!-- My skill -->
+      <section id="section2">
+        <h3 class="judul">My Skill</h3>
+        <div class="maincard">
+          <div class="card1">
+            <img src="/asset/1.png" alt="html" />
+            <h4>HTML</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              numquam.
+            </p>
+            <h3><a href="">Learn More</a></h3>
+          </div>
+          <div class="card2">
+            <img src="/asset/2.png" alt="css" />
+            <h4>CSS</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              numquam.
+            </p>
+            <h3><a href="">Learn More</a></h3>
+          </div>
+          <div class="card3">
+            <img src="/asset/3.png" alt="js" />
+            <h4>JavaScript</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              numquam.
+            </p>
+            <h3><a href="">Learn More</a></h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Project -->
+      <section id="myproject">
+        <h3>My Project</h3>
+        <div class="project">
+          <img src="/projectimages/mrs.png" alt="mrs" />
+          <p>
+            MRS adalah sebuah website yang berfungsi untuk booking ruangan
+            studio di Universitas Raharja, technologi menggunakan Bootstrap dan
+            Codeignator 4
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Me -->
+      <section id="contact">
+        <h3>Contact Me</h3>
+        <div class="card">
+          <form class="form">
+            <div class="group">
+              <input placeholder="" type="text" required="" />
+              <label for="name">Name</label>
+            </div>
+            <div class="group">
+              <input
+                placeholder=""
+                type="email"
+                id="email"
+                name="email"
+                required=""
+              />
+              <label for="email">Email</label>
+            </div>
+            <div class="group">
+              <textarea
+                placeholder=""
+                id="comment"
+                name="comment"
+                rows="5"
+                required=""
+              ></textarea>
+              <label for="comment">Comment</label>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <p>Created with ♥️ 2023</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
